@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace Covid19_Dashoboard.Controllers
+namespace Covid19_Dashboard.Controllers
 {
     public class HomeController : Controller
     {
