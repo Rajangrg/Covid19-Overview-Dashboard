@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Covid19_Dashboard", "Covid1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Covid19_Tests", "Covid19_Tests\Covid19_Tests.csproj", "{B5D0A67C-1286-40DA-8477-C2267C2EE039}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Covid19_DataEntities", "Covid19_DataEntities\Covid19_DataEntities.csproj", "{48845109-8804-400D-9A36-5C1DCBA707A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B5D0A67C-1286-40DA-8477-C2267C2EE039}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5D0A67C-1286-40DA-8477-C2267C2EE039}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5D0A67C-1286-40DA-8477-C2267C2EE039}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48845109-8804-400D-9A36-5C1DCBA707A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48845109-8804-400D-9A36-5C1DCBA707A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48845109-8804-400D-9A36-5C1DCBA707A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48845109-8804-400D-9A36-5C1DCBA707A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

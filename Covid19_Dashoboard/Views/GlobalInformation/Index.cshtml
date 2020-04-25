@@ -1,0 +1,38 @@
+﻿@model Covid19_DataEntities.GlobalInformation
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Cases)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Deaths)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Recovered)
+        </th>
+        <th></th>
+    </tr>
+
+
+    <tr>
+        <td>
+           @Model.Cases
+        </td>
+        <td>
+           @Model.Deaths
+        </td>
+        <td>
+            @Model.Recovered
+        </td>
+     
+    </tr>
+
+</table>

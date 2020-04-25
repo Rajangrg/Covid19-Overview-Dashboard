@@ -1,0 +1,5 @@
+D:\Project\Covid19-Overview-Dashboard\Covid19_DataEntities\bin\Debug\Covid19_DataEntities.dll
+D:\Project\Covid19-Overview-Dashboard\Covid19_DataEntities\bin\Debug\Covid19_DataEntities.pdb
+D:\Project\Covid19-Overview-Dashboard\Covid19_DataEntities\obj\Debug\Covid19_DataEntities.csprojAssemblyReference.cache
+D:\Project\Covid19-Overview-Dashboard\Covid19_DataEntities\obj\Debug\Covid19_DataEntities.dll
+D:\Project\Covid19-Overview-Dashboard\Covid19_DataEntities\obj\Debug\Covid19_DataEntities.pdb

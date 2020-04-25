@@ -76,3 +76,9 @@ D:\Project\Covid19-Overview-Dashboard\Covid19_Dashoboard\obj\Debug\Covid19_Dashb
 D:\Project\Covid19-Overview-Dashboard\Covid19_Dashoboard\obj\Debug\Covid19_Dashboard.csproj.CopyComplete
 D:\Project\Covid19-Overview-Dashboard\Covid19_Dashoboard\obj\Debug\Covid19_Dashoboard.dll
 D:\Project\Covid19-Overview-Dashboard\Covid19_Dashoboard\obj\Debug\Covid19_Dashoboard.pdb
+D:\Project\Covid19-Overview-Dashboard\Covid19_Dashoboard\bin\System.Net.Http.Formatting.dll
+D:\Project\Covid19-Overview-Dashboard\Covid19_Dashoboard\bin\System.Net.Http.Formatting.xml
+D:\Project\Covid19-Overview-Dashboard\Covid19_Dashoboard\bin\RestSharp.dll
+D:\Project\Covid19-Overview-Dashboard\Covid19_Dashoboard\bin\RestSharp.xml
+D:\Project\Covid19-Overview-Dashboard\Covid19_Dashoboard\bin\Covid19_DataEntities.dll
+D:\Project\Covid19-Overview-Dashboard\Covid19_Dashoboard\bin\Covid19_DataEntities.pdb
