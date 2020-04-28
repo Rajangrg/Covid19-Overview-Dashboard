@@ -22,7 +22,7 @@ namespace Covid19_Dashboard.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+   
 
             return View();
         }

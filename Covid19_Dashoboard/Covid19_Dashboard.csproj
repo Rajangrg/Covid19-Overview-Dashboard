@@ -169,8 +169,8 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\GlobalInformation\Index.cshtml" />
     <Content Include="Views\CountryInformation\Index.cshtml" />
+    <Content Include="Views\GlobalInformation\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -193,6 +193,10 @@
     <ProjectReference Include="..\Covid19_DataEntities\Covid19_DataEntities.csproj">
       <Project>{48845109-8804-400d-9a36-5c1dcba707a8}</Project>
       <Name>Covid19_DataEntities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Covid19_Service\Covid19_Service.csproj">
+      <Project>{f77eca1c-2811-4668-bac7-e0c701899deb}</Project>
+      <Name>Covid19_Service</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

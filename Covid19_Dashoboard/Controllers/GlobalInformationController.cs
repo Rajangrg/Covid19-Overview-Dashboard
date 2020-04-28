@@ -1,4 +1,5 @@
 ﻿using Covid19_DataEntities;
+using Covid19_Service;
 using RestSharp;
 using RestSharp.Serialization.Json;
 using System;
@@ -12,27 +13,18 @@ namespace Covid19_Dashoboard.Controllers
 {
     public class GlobalInformationController : Controller
     {
+        APIInformationtionService APIInformationtionService = new APIInformationtionService();  //service
+
+
         // GET: GlobalInformation
         public ActionResult Index()
         {
-           
-            RestClient client = new RestClient("https://coronavirus-19-api.herokuapp.com/");
-            RestRequest request = new RestRequest("all", Method.GET);
-
-        
-            IRestResponse response = client.Execute(request);
+            IRestResponse response = APIInformationtionService.GetResponse("all"); 
 
             var deserialize = new JsonDeserializer();
-            var output = deserialize.Deserialize<Dictionary<string, string>>(response); //<key, value>
+            var output = deserialize.Deserialize<IEnumerable<GlobalInformation>>(response); //<key, value>
 
-            GlobalInformation model = new GlobalInformation()
-            {
-                Cases = output["cases"],
-                Deaths = output["deaths"],
-                Recovered = output["recovered"],
-            };
-
-            return View(model);
+            return View(output);
         }
     }
 }

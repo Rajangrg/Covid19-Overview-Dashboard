@@ -1,4 +1,5 @@
 ﻿using Covid19_DataEntities;
+using Covid19_Service;
 using RestSharp;
 using RestSharp.Serialization.Json;
 using System;
@@ -11,13 +12,13 @@ namespace Covid19_Dashoboard.Controllers
 {
     public class CountryInformationController : Controller
     {
+
+        APIInformationtionService APIInformationtionService = new APIInformationtionService(); //service
+
         // GET: CountryInformation
         public ActionResult Index()
         {
-            RestClient client = new RestClient("https://coronavirus-19-api.herokuapp.com/");
-            RestRequest request = new RestRequest("countries", Method.GET);
-
-            IRestResponse response = client.Execute(request);
+            IRestResponse response = APIInformationtionService.GetResponse("countries");
 
             var deserialize = new JsonDeserializer();
             var output = deserialize.Deserialize<IEnumerable<CountryInformation>>(response); //<key, value>

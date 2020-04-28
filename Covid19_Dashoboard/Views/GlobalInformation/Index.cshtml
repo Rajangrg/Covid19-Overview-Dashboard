@@ -1,39 +1,34 @@
-﻿@model Covid19_DataEntities.GlobalInformation
+﻿@model IEnumerable<Covid19_DataEntities.GlobalInformation>
 
 @{
     ViewBag.Title = "Index";
 }
 
-<h2 style="padding-top: 0.5em;">Global Information</h2>
+<h2 style="padding-top: 0.5rem; padding-bottom: 0.5rem">Global Information</h2>
 
 
 <table class="table table-condensed table-hover">
     <thead>
         <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Cases)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Deaths)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Recovered)
-            </th>
-
+            <th>Total Cases</th>
+            <th>Total Death</th>
+            <th>Total Recovered</th>
         </tr>
-    </thead>
+        </thead>
     <tbody>
-        <tr>
-            <td>
-                @Model.Cases
-            </td>
-            <td>
-                @Model.Deaths
-            </td>
-            <td>
-                @Model.Recovered
-            </td>
-
-        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Cases)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Deaths)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Recovered)
+                </td>
+            </tr>
+        }
     </tbody>
 </table>

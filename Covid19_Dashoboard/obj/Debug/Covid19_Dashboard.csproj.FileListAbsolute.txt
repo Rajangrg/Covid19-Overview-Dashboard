@@ -82,3 +82,5 @@ D:\Project\Covid19-Overview-Dashboard\Covid19_Dashoboard\bin\RestSharp.dll
 D:\Project\Covid19-Overview-Dashboard\Covid19_Dashoboard\bin\RestSharp.xml
 D:\Project\Covid19-Overview-Dashboard\Covid19_Dashoboard\bin\Covid19_DataEntities.dll
 D:\Project\Covid19-Overview-Dashboard\Covid19_Dashoboard\bin\Covid19_DataEntities.pdb
+D:\Project\Covid19-Overview-Dashboard\Covid19_Dashoboard\bin\Covid19_Service.dll
+D:\Project\Covid19-Overview-Dashboard\Covid19_Dashoboard\bin\Covid19_Service.pdb

@@ -1,0 +1,8 @@
+D:\Project\Covid19-Overview-Dashboard\Covid19_Service\bin\Debug\Covid19_Service.dll
+D:\Project\Covid19-Overview-Dashboard\Covid19_Service\bin\Debug\Covid19_Service.pdb
+D:\Project\Covid19-Overview-Dashboard\Covid19_Service\bin\Debug\RestSharp.dll
+D:\Project\Covid19-Overview-Dashboard\Covid19_Service\bin\Debug\RestSharp.xml
+D:\Project\Covid19-Overview-Dashboard\Covid19_Service\obj\Debug\Covid19_Service.csprojAssemblyReference.cache
+D:\Project\Covid19-Overview-Dashboard\Covid19_Service\obj\Debug\Covid19_Service.csproj.CopyComplete
+D:\Project\Covid19-Overview-Dashboard\Covid19_Service\obj\Debug\Covid19_Service.dll
+D:\Project\Covid19-Overview-Dashboard\Covid19_Service\obj\Debug\Covid19_Service.pdb
