@@ -23,6 +23,11 @@ namespace Covid19_Dashoboard
               url: "{controller}/{action}/{id}",
               defaults: new { controller = "GlobalInformation", action = "Index", id = UrlParameter.Optional }
           );
+            routes.MapRoute(
+          name: "CountryInformation",
+          url: "{controller}/{action}/{id}",
+          defaults: new { controller = "CountryInformation", action = "Index", id = UrlParameter.Optional }
+      );
         }
     }
 }

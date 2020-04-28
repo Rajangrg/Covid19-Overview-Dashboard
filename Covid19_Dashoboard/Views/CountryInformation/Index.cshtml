@@ -1,0 +1,93 @@
+﻿@model IEnumerable<Covid19_DataEntities.CountryInformation>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Country)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Cases)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TodayCases)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Deaths)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TodayDeaths)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Recovered)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Active)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Critical)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CasesPerOneMillion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DeathsPerOneMillion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TotalTests)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TestsPerOneMillion)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Country)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Cases)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TodayCases)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Deaths)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TodayDeaths)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Recovered)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Active)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Critical)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CasesPerOneMillion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DeathsPerOneMillion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TotalTests)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TestsPerOneMillion)
+        </td>
+     
+    </tr>
+}
+
+</table>
