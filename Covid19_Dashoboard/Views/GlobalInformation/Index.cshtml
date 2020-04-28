@@ -4,35 +4,36 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<h2 style="padding-top: 0.5em;">Global Information</h2>
 
 
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.Cases)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Deaths)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Recovered)
-        </th>
-        <th></th>
-    </tr>
+<table class="table table-condensed table-hover">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Cases)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Deaths)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Recovered)
+            </th>
 
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                @Model.Cases
+            </td>
+            <td>
+                @Model.Deaths
+            </td>
+            <td>
+                @Model.Recovered
+            </td>
 
-    <tr>
-        <td>
-           @Model.Cases
-        </td>
-        <td>
-           @Model.Deaths
-        </td>
-        <td>
-            @Model.Recovered
-        </td>
-     
-    </tr>
-
+        </tr>
+    </tbody>
 </table>

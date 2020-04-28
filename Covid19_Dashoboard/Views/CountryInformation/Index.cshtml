@@ -4,7 +4,7 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+    <h2 style="padding-top: 0.5em;">Country Information</h2>
 
 
 <table class="table table-condensed table-hover" id="demoGrid">
@@ -34,18 +34,11 @@
             <th>
                 @Html.DisplayNameFor(model => model.Critical)
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CasesPerOneMillion)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DeathsPerOneMillion)
-            </th>
+           
             <th>
                 @Html.DisplayNameFor(model => model.TotalTests)
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.TestsPerOneMillion)
-            </th>
+            
         </tr>
     </thead>
     <tbody>
@@ -77,18 +70,11 @@
                 <td>
                     @Html.DisplayFor(modelItem => item.Critical)
                 </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.CasesPerOneMillion)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.DeathsPerOneMillion)
-                </td>
+              
                 <td>
                     @Html.DisplayFor(modelItem => item.TotalTests)
                 </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.TestsPerOneMillion)
-                </td>
+              
 
             </tr>
         }
