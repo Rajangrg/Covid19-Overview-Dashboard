@@ -14,15 +14,17 @@ namespace Covid19_Dashoboard
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
-                name: "Default",
+          name: "Default",
+          url: "{controller}/{action}/{id}",
+          defaults: new { controller = "GlobalInformation", action = "Index", id = UrlParameter.Optional }
+                );
+
+            routes.MapRoute(
+                name: "Home",
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
-            routes.MapRoute(
-              name: "GlobalInformation",
-              url: "{controller}/{action}/{id}",
-              defaults: new { controller = "GlobalInformation", action = "Index", id = UrlParameter.Optional }
-          );
+
             routes.MapRoute(
           name: "CountryInformation",
           url: "{controller}/{action}/{id}",
